@@ -6,9 +6,12 @@ public class MyArray {
 		int [] myArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; 
 		
 		int index = 0;
-		while (index < 10) {
-		System.out.println("The value at the index "+index +" "+"is " +myArray [index]);
-		index++;
+		for (index = 0; index < 5; index++) {
+			System.out.println("Index "+index +" "+"is " +myArray [index]);
+		}
+		for (index = 9; index >=5; index--){
+		System.out.println("Index "+index +" "+"is " +myArray [index]);
+		
 		}
 	}
 
